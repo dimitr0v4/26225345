@@ -12,7 +12,8 @@ namespace _262255
         public  void AddStudent(Student student) 
             { uni.Add(student);
             InsSort(uni);}
-        public static void InsSort(List<Student> uni) 
+        public static void InsSort(List<Student> uni) //insertion sort adjusted
             { }
+        public void FindStByScore(int score) { }//dwoichno
     }
 }
