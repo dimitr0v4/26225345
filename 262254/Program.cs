@@ -15,8 +15,10 @@
             for (int i = 0; i < a.Length; i++)
             {
                 if (a[i] == t)
-                {
-                    (a[i], a[0]) = (a[0], a[i]);
+                {int at=i;
+                    for(int j=i;j>0;j--)
+                    { (a[j], a[j - 1]) = (a[j - 1], a[j]);}
+                    
                     return i;
                 }
             }
