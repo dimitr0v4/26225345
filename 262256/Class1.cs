@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ConsoleApp2
+namespace _262256
 {
     class Employee
     {public string Name { get; set; }
